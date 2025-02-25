@@ -36,7 +36,7 @@ def set_bg(image_url):
     else:
         st.error("❌ Background image could not be loaded!")
 
-Apply background image using the correct RAW URL
+#Apply background image using the correct RAW URL
 set_bg("https://raw.githubusercontent.com/Gowthamv05/car_price_prediction/main/mustang.jpg")
 Custom CSS for improved UI
 st.markdown(
