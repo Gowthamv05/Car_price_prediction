@@ -37,7 +37,7 @@ def set_bg(image_url):
         st.error("❌ Background image could not be loaded!")
 
 Apply background image using the correct RAW URL
-set_bg("C:/Users/sisir/CarDekho/mustang.jpg")
+set_bg("https://raw.githubusercontent.com/Gowthamv05/car_price_prediction/main/mustang.jpg")
 Custom CSS for improved UI
 st.markdown(
     """
@@ -112,8 +112,8 @@ selected = option_menu(
     }
 )
 
-#if selected in ["Home", "Price Prediction"]:
-    #set_bg("C:/Users/sisir/CarDekho/mustang.jpg")
+if selected in ["Home", "Price Prediction"]:
+    set_bg("https://raw.githubusercontent.com/Gowthamv05/car_price_prediction/main/mustang.jpg")
 
 
 # Home Page Content
