@@ -38,7 +38,7 @@ def set_bg(image_url):
 
 #Apply background image using the correct RAW URL
 set_bg("https://raw.githubusercontent.com/Gowthamv05/car_price_prediction/main/mustang.jpg")
-Custom CSS for improved UI
+#Custom CSS for improved UI
 st.markdown(
     """
     <style>
